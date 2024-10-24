@@ -12,6 +12,7 @@ import {
 import { Check, Linkedin } from "lucide-react";
 import { LightBulbIcon } from "./Icons";
 import { GitHubLogoIcon } from "@radix-ui/react-icons";
+import profile from "../assets/myProfile.jpeg";
 
 export const HeroCards = () => {
   return (
@@ -37,7 +38,7 @@ export const HeroCards = () => {
       <Card className="absolute right-[20px] top-4 w-80 flex flex-col justify-center items-center drop-shadow-xl shadow-black/10 dark:shadow-white/10">
         <CardHeader className="mt-8 flex justify-center items-center pb-2">
           <img
-            src="/src/assets/myProfile.png"
+            src={profile}
             alt="profile"
             className="absolute grayscale-[0%] -top-12 rounded-full w-24 h-24 aspect-square object-cover"
           />
